@@ -50,8 +50,7 @@ Plot.Destroy(id) # Destroys the plot.
 
 ## Examples
 ### Screenshots
-<img src=https://imgur.com/E6IM0Bc.png>
-<img src=https://imgur.com/qDiGUce.png>
+https://imgur.com/a/neJHclD
 
 ### Videos
 
