@@ -10,7 +10,7 @@ Draw graphs on FiveM.
 ## How to use
 ### Commands
 Commands can be used don't need a new script to work.
-```lua
+```python
 /plot create [ID] # Create a new plot.
 
 /plot show [ID] # Show the plot (needs coordinates).
@@ -19,9 +19,9 @@ Commands can be used don't need a new script to work.
 
 /plot size [ID] [x] [y] # Change the size of the plot.
 
-/plot coords [ID] [x] [y] [z] # Chnage the coordinates of the plot (relative to your position).
+/plot coords [ID] [x] [y] [z] # Change the coordinates of the plot (relative to your position).
 
-/plot color [ID] [r] [g] [b] [a] # CHange the color of the plot
+/plot color [ID] [r] [g] [b] [a] # Change the color of the plot
 
 /plot nbraxis [ID] [nbr] # Change the amount of values wrote on the axis.
 
