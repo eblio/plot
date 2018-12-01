@@ -13,7 +13,9 @@ Commands can be used don't need a new script to work.
 ```
 /plot create [ID] # Create a new plot.
 
-/plot create [ID] [x's] and [y's] end # Change the x and y coordinates of the plot.
+/plot show [ID] # Show the plot (needs coordinates).
+
+/plot graph [ID] [x's] and [y's] end # Change the x and y coordinates of the plot.
 
 /plot size [ID] [x] [y] # Change the size of the plot.
 
