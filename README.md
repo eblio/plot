@@ -11,19 +11,19 @@ Draw graphs on FiveM.
 ### Commands
 Commands can be used don't need a new script to work.
 ```
-/plot create [ID] # Create a new plot.
+/plot <span style="color:#790000">create</span> [ID] # Create a new plot.
 
-/plot show [ID] # Show the plot (needs coordinates).
+/plot <span style="color:#790000">show</span> [ID] # Show the plot (needs coordinates).
 
-/plot graph [ID] [x's] and [y's] end # Change the x and y coordinates of the plot.
+/plot <span style="color:#790000">graph</span> [ID] [x's] and [y's] end # Change the x and y coordinates of the plot.
 
-/plot size [ID] [x] [y] # Change the size of the plot.
+/plot <span style="color:#790000">size</span> [ID] [x] [y] # Change the size of the plot.
 
-/plot coords [ID] [x] [y] [z] # Chnage the coordinates of the plot (relative to your position).
+/plot <span style="color:#790000">coords</span> [ID] [x] [y] [z] # Chnage the coordinates of the plot (relative to your position).
 
-/plot color [ID] [r] [g] [b] [a] # CHange the color of the plot
+/plot <span style="color:#790000">color</span> [ID] [r] [g] [b] [a] # CHange the color of the plot
 
-/plot nbraxis [ID] [nbr] # Change the amount of values wrote on the axis.
+/plot <span style="color:#790000">nbraxis</span> [ID] [nbr] # Change the amount of values wrote on the axis.
 
 ``` 
 
