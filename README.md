@@ -1,5 +1,5 @@
 # Plot
-Draw graphs on FiveM.
+Draw graphs in FiveM.
 
 ## Installation
 * Download the resource ;
