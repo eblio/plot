@@ -10,42 +10,42 @@ Draw graphs on FiveM.
 ## How to use
 ### Commands
 Commands can be used don't need a new script to work, need to be run in game.
-```python
-/plot create [ID] # Creates a new plot.
+```lua
+/plot create [ID] -- Creates a new plot.
 
-/plot show [ID] # Shows the plot (needs coordinates).
+/plot show [ID] -- Shows the plot (needs coordinates).
 
 /plot graph [ID] [x's] and [y's] end # Changes the x and y coordinates of the dots.
 
-/plot size [ID] [x] [y] # Changes the size of the plot.
+/plot size [ID] [x] [y] -- Changes the size of the plot.
 
-/plot coords [ID] [x] [y] [z] # Changes the coordinates of the plot (relative to your position).
+/plot coords [ID] [x] [y] [z] -- Changes the coordinates of the plot (relative to your position).
 
-/plot color [ID] [r] [g] [b] [a] # Changes the color of the plot
+/plot color [ID] [r] [g] [b] [a] -- Changes the color of the plot
 
-/plot nbraxis [ID] [nbr] # Changes the amount of values wrote on the axis.
+/plot nbraxis [ID] [nbr] -- Changes the amount of values wrote on the axis.
 ``` 
 
 ### Functions
 Functions need to be in an other resource.
-```python
-Plot.Create(id) # Creates a new plot.
+```lua
+Plot.Create(id) -- Creates a new plot.
 
-Plot.Show(id) # Shows the plot (needs coordinates).
+Plot.Show(id) -- Shows the plot (needs coordinates).
 
-Plot.Graph(id, _x, _y) # Changes the x and y coordinates of the dots.
+Plot.Graph(id, _x, _y) -- Changes the x and y coordinates of the dots.
 
-Plot.Size(id, _x, _y) # Changes the size of the plot.
+Plot.Size(id, _x, _y) -- Changes the size of the plot.
 
-Plot.Coords(id, _x, _y, _z) # Changes the coordinates of the plot (relative to your position).
+Plot.Coords(id, _x, _y, _z) -- Changes the coordinates of the plot (relative to your position).
 
-Plot.Color(id, _r, _g, _b, _a) # Changes the color of the plot
+Plot.Color(id, _r, _g, _b, _a) -- Changes the color of the plot
 
-Plot.NbrAxis(id, _nbrOfAxis) # Changes the amount of values wrote on the axis.
+Plot.NbrAxis(id, _nbrOfAxis) -- Changes the amount of values wrote on the axis.
 
-Plot.Remove(id) # Removes the plot.
+Plot.Remove(id) -- Removes the plot.
 
-Plot.Destroy(id) # Destroys the plot.
+Plot.Destroy(id) -- Destroys the plot.
 ``` 
 
 ## Examples
