@@ -15,7 +15,7 @@ Commands can be used don't need a new script to work, need to be run in game.
 
 /plot show [ID] -- Shows the plot (needs coordinates).
 
-/plot graph [ID] [x's] and [y's] end # Changes the x and y coordinates of the dots.
+/plot graph [ID] [x's] and [y's] end -- Changes the x and y coordinates of the dots.
 
 /plot size [ID] [x] [y] -- Changes the size of the plot.
 
