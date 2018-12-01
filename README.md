@@ -11,24 +11,42 @@ Draw graphs on FiveM.
 ### Commands
 Commands can be used don't need a new script to work.
 ```python
-/plot create [ID] # Create a new plot.
+/plot create [ID] # Creates a new plot.
 
-/plot show [ID] # Show the plot (needs coordinates).
+/plot show [ID] # Shows the plot (needs coordinates).
 
-/plot graph [ID] [x's] and [y's] end # Change the x and y coordinates of the plot.
+/plot graph [ID] [x's] and [y's] end # Changes the x and y coordinates of the dots.
 
-/plot size [ID] [x] [y] # Change the size of the plot.
+/plot size [ID] [x] [y] # Changes the size of the plot.
 
-/plot coords [ID] [x] [y] [z] # Change the coordinates of the plot (relative to your position).
+/plot coords [ID] [x] [y] [z] # Changes the coordinates of the plot (relative to your position).
 
-/plot color [ID] [r] [g] [b] [a] # Change the color of the plot
+/plot color [ID] [r] [g] [b] [a] # Changes the color of the plot
 
-/plot nbraxis [ID] [nbr] # Change the amount of values wrote on the axis.
-
+/plot nbraxis [ID] [nbr] # Changes the amount of values wrote on the axis.
 ``` 
 
 ### Functions
 Functions need to be in an other resource.
+```python
+Plot.Create(id) # Creates a new plot.
+
+Plot.Show(id) # Shows the plot (needs coordinates).
+
+Plot.Graph(id, _x, _y) # Changes the x and y coordinates of the dots.
+
+Plot.Size(id, _x, _y) # Changes the size of the plot.
+
+Plot.Coords(id, _x, _y, _z) # Changes the coordinates of the plot (relative to your position).
+
+Plot.Color(id, _r, _g, _b, _a) # Changes the color of the plot
+
+Plot.NbrAxis(id, _nbrOfAxis) # Changes the amount of values wrote on the axis.
+
+Plot.Remove(id) # Removes the plot.
+
+Plot.Destroy(id) # Destroys the plot.
+``` 
 
 ## Options 
 * Color of the text : ```client.lua``` line 1 : ```local color = {r = 37, g = 175, b = 134, alpha = 255}```
